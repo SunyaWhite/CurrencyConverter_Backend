@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{5209E33F-2203-41EF-A17C-1E905FE03AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Helper", "CurrencyConverter.Helper\CurrencyConverter.Helper.csproj", "{7414B6F0-6019-44AC-B2C7-5ED4D1481DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Core", "CurrencyConverter.Core\CurrencyConverter.Core.csproj", "{33A4E29F-EAF2-4599-9247-D3DC9A9761E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Test", "CurrencyConverter.Test\CurrencyConverter.Test.csproj", "{4303A4E0-F006-49C6-B9F4-2AA603A45EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5209E33F-2203-41EF-A17C-1E905FE03AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5209E33F-2203-41EF-A17C-1E905FE03AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5209E33F-2203-41EF-A17C-1E905FE03AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5209E33F-2203-41EF-A17C-1E905FE03AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7414B6F0-6019-44AC-B2C7-5ED4D1481DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7414B6F0-6019-44AC-B2C7-5ED4D1481DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7414B6F0-6019-44AC-B2C7-5ED4D1481DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7414B6F0-6019-44AC-B2C7-5ED4D1481DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A4E29F-EAF2-4599-9247-D3DC9A9761E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A4E29F-EAF2-4599-9247-D3DC9A9761E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A4E29F-EAF2-4599-9247-D3DC9A9761E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A4E29F-EAF2-4599-9247-D3DC9A9761E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4303A4E0-F006-49C6-B9F4-2AA603A45EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4303A4E0-F006-49C6-B9F4-2AA603A45EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4303A4E0-F006-49C6-B9F4-2AA603A45EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4303A4E0-F006-49C6-B9F4-2AA603A45EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

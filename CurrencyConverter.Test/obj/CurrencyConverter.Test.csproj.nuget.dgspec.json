@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Test/CurrencyConverter.Test.csproj": {}
+  },
+  "projects": {
+    "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj",
+        "projectName": "CurrencyConverter.Core",
+        "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/alexander/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj": {
+                "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj",
+        "projectName": "CurrencyConverter.Helper",
+        "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/alexander/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Test/CurrencyConverter.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Test/CurrencyConverter.Test.csproj",
+        "projectName": "CurrencyConverter.Test",
+        "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Test/CurrencyConverter.Test.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Test/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/alexander/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj": {
+                "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj"
+              },
+              "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj": {
+                "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

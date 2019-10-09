@@ -1,0 +1,12 @@
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.csprojAssemblyReference.cache
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.csproj.CoreCompileInputs.cache
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.AssemblyInfoInputs.cache
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.AssemblyInfo.cs
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/bin/Debug/netcoreapp2.2/CurrencyConverter.Core.deps.json
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/bin/Debug/netcoreapp2.2/CurrencyConverter.Core.dll
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/bin/Debug/netcoreapp2.2/CurrencyConverter.Core.pdb
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/bin/Debug/netcoreapp2.2/CurrencyConverter.Helper.dll
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/bin/Debug/netcoreapp2.2/CurrencyConverter.Helper.pdb
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.csproj.CopyComplete
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.dll
+/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.pdb

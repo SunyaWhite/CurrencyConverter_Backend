@@ -1,0 +1,73 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Tests/CurrencyConverter.Tests.csproj",
+    "projectName": "CurrencyConverter.Tests",
+    "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Tests/CurrencyConverter.Tests.csproj",
+    "outputPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj": {
+            "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/CurrencyConverter.Core.csproj"
+          },
+          "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj": {
+            "projectPath": "/home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/CurrencyConverter.Helper.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.utility": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
