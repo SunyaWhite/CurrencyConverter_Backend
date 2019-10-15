@@ -40,5 +40,7 @@ namespace CurrencyConverter.Core.Parsers
                 return exc;
             }
         }
+
+        protected override void SetDateInQuery(DateTime date){}
     }
 }

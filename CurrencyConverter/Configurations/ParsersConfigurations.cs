@@ -9,6 +9,7 @@ namespace CurrencyConverter.Configurations
         public static IServiceCollection ProvideParsers(this IServiceCollection services)
         {
             services.AddTransient<ICurrencyParser, ECBParser>();
+            services.AddTransient<ICurrencyParser, RCBParser>();
             return services;
         }
     }

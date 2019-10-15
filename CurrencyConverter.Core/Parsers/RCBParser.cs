@@ -15,7 +15,7 @@ namespace CurrencyConverter.Core.Parsers
 
         public RCBParser()
         {
-            Url = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=15/10/2019";
+            Url = "http://www.cbr.ru/scripts/XML_daily.asp";
         }
 
         protected override async Task<Result<IEnumerable<Currency>>> ParseAsync(Stream streamData)
@@ -41,5 +41,7 @@ namespace CurrencyConverter.Core.Parsers
                 return exc;
             }
         }
+
+        protected override void SetDateInQuery(DateTime date) => Url += $"?date_req={date.Day}/{date.Month}/{date.Year}";
     }
 }

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using CurrencyConverter.ViewModels;
 
 namespace CurrencyConverter.Controllers
 {
@@ -13,17 +14,30 @@ namespace CurrencyConverter.Controllers
     [EnableCors("FrontView")]
     public class CurrenciesController: Controller
     {
-        /*[HttpPost]
-        public async Task<IActionResult> GetCurrencies([FromBody] DateTime date, CancellationToken cts)
+        // Should be replaced into other part of the project
+        [NonAction]
+        public ICurrencyParser SelectParser(string code)
         {
-            var parser = this.ControllerContext.HttpContext.RequestServices.GetRequiredService<ICurrencyParser>();
-            return (await parser.GetCurrencyRatesAsync(date, cts))
+            switch(code)
+            {
+                case "RCB":
+                    return this.HttpContext.RequestServices.GetRequiredService<RCBParser>();
+                default:
+                    return this.HttpContext.RequestServices.GetRequiredService<ECBParser>();
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> GetCurrencies([FromBody] CurrencyRatesRequest request, CancellationToken cts)
+        {
+            var parser = SelectParser(request.bankCode);
+            return (await parser.GetCurrencyRatesAsync(request.date, cts))
                 .Match<IActionResult>(
                     currencies => Ok(currencies),
                     error => BadRequest(error));
-        }*/
+        }
 
-        [HttpGet]
+        /*[HttpGet]
         public async Task<IActionResult> Get(CancellationToken cts)
         {
             var parser = this.ControllerContext.HttpContext.RequestServices.GetRequiredService<ICurrencyParser>();
@@ -31,6 +45,6 @@ namespace CurrencyConverter.Controllers
                 .Match<IActionResult>(
                     currencies => Ok(currencies),
                     error => BadRequest(error));
-        }
+        }*/
     }
 }

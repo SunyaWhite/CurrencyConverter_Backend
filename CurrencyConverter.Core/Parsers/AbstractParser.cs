@@ -33,6 +33,7 @@ namespace CurrencyConverter.Core.Parsers
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             try
             {
+                SetDateInQuery(date);
                 return await Retry(() => GetRawDataAsync(), 3, new TimeSpan(0, 0, 0, 2), cts)
                     .Bind((async rawData =>
                     {
@@ -57,6 +58,8 @@ namespace CurrencyConverter.Core.Parsers
         }
 
         protected abstract Task<Result<IEnumerable<Currency>>> ParseAsync(Stream streamData);
+
+        protected abstract void SetDateInQuery(DateTime date);
 
         protected virtual async Task<Result<Stream>> GetRawDataAsync()
         {
