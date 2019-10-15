@@ -28,7 +28,8 @@ namespace CurrencyConverter
         {
             services
                 .ProvideParsers()
-                .ProvideCors();
+                .ProvideCors()
+                .AddMemoryCache();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

@@ -8,8 +8,8 @@ namespace CurrencyConverter.Configurations
     {
         public static IServiceCollection ProvideParsers(this IServiceCollection services)
         {
-            services.AddTransient<ICurrencyParser, ECBParser>();
-            services.AddTransient<ICurrencyParser, RCBParser>();
+            services.AddTransient<ECBParser>();
+            services.AddTransient<RCBParser>();
             return services;
         }
     }
