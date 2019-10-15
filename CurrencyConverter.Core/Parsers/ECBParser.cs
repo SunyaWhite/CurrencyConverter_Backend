@@ -29,7 +29,7 @@ namespace CurrencyConverter.Core.Parsers
                     if (node != null && (node as XmlElement).HasAttribute("rate"))
                         list.Add(
                             new Currency((node as XmlElement).GetAttribute("currency"),
-                                decimal.Parse((node as XmlElement).GetAttribute("rate"))));
+                                float.Parse((node as XmlElement).GetAttribute("rate"))));
                     return list;
                 });
                 rates.Add(new Currency("EUR", 1));

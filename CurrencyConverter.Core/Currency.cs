@@ -3,9 +3,9 @@ namespace CurrencyConverter.Core
     public struct Currency
     {
         public string Code { get; set; }
-        public decimal Rate { get; set; }
+        public float Rate { get; set; }
 
-        public Currency(string code, decimal rate)
+        public Currency(string code, float rate)
         {
             Code = code;
             Rate = rate;

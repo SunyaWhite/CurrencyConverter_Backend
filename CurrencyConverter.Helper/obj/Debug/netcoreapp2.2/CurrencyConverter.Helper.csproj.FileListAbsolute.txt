@@ -7,3 +7,12 @@
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/obj/Debug/netcoreapp2.2/CurrencyConverter.Helper.AssemblyInfo.cs
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/obj/Debug/netcoreapp2.2/CurrencyConverter.Helper.dll
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Helper/obj/Debug/netcoreapp2.2/CurrencyConverter.Helper.pdb
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\bin\Debug\netcoreapp2.2\CurrencyConverter.Helper.deps.json
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\bin\Debug\netcoreapp2.2\CurrencyConverter.Helper.dll
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\bin\Debug\netcoreapp2.2\CurrencyConverter.Helper.pdb
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.csprojAssemblyReference.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.csproj.CoreCompileInputs.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.AssemblyInfoInputs.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.AssemblyInfo.cs
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.dll
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Helper\obj\Debug\netcoreapp2.2\CurrencyConverter.Helper.pdb

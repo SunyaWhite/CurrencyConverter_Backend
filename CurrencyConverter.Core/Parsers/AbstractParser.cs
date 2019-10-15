@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -29,6 +30,7 @@ namespace CurrencyConverter.Core.Parsers
 
         public virtual async Task<Result<CurrencyRates>> GetCurrencyRatesAsync(DateTime date, CancellationToken cts)
         {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             try
             {
                 return await Retry(() => GetRawDataAsync(), 3, new TimeSpan(0, 0, 0, 2), cts)
@@ -41,7 +43,7 @@ namespace CurrencyConverter.Core.Parsers
                     .Bind(async currencies => 
                     {
                         return await currencies.Match(
-                            async curs => new CurrencyRates(curs, date, "EUR"),
+                            async curs => new CurrencyRates(curs, date),
                             error => throw error);
                     });
                 //var rawDataResult = await Retry(() => GetRawData(), 3, new TimeSpan(0, 0, 0, 2), cts);

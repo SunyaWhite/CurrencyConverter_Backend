@@ -10,3 +10,15 @@
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.csproj.CopyComplete
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.dll
 /home/alexander/Documents/Projects/CurrencyConverter/CurrencyConverter/CurrencyConverter.Core/obj/Debug/netcoreapp2.2/CurrencyConverter.Core.pdb
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\bin\Debug\netcoreapp2.2\CurrencyConverter.Core.deps.json
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\bin\Debug\netcoreapp2.2\CurrencyConverter.Core.dll
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\bin\Debug\netcoreapp2.2\CurrencyConverter.Core.pdb
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\bin\Debug\netcoreapp2.2\CurrencyConverter.Helper.dll
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\bin\Debug\netcoreapp2.2\CurrencyConverter.Helper.pdb
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.csprojAssemblyReference.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.csproj.CoreCompileInputs.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.AssemblyInfoInputs.cache
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.AssemblyInfo.cs
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.csproj.CopyComplete
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.dll
+C:\Work\CurrencyConverter\Back\CurrencyConverter_Backend\CurrencyConverter.Core\obj\Debug\netcoreapp2.2\CurrencyConverter.Core.pdb

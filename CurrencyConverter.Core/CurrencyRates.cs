@@ -8,13 +8,11 @@ namespace CurrencyConverter.Core
     {
         public IEnumerable<Currency> Currencies;
         public DateTime Date;
-        public string mainCurrencyCode;
 
-        public CurrencyRates(IEnumerable<Currency> currencies, DateTime date, string code)
+        public CurrencyRates(IEnumerable<Currency> currencies, DateTime date)
         {
             Currencies = currencies;
             Date = date;
-            mainCurrencyCode = code;
         }
         
     }

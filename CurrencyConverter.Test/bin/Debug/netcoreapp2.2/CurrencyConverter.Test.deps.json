@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a5a5d42c43e1cb429841cf89fae7fc4c23ac8cc9"
+    "signature": "91dc9b086f988a159065a9f33429416a41da377a"
   },
   "compilationOptions": {},
   "targets": {
@@ -85,6 +85,7 @@
           "Microsoft.TestPlatform.TestHost": "16.0.1"
         }
       },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
       "Microsoft.TestPlatform.ObjectModel/16.0.1": {
         "dependencies": {
           "System.ComponentModel.EventBasedAsync": "4.0.11",
@@ -346,11 +347,13 @@
       },
       "Microsoft.Win32.Primitives/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "Microsoft.Win32.Registry/4.0.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Collections": "4.0.11",
           "System.Globalization": "4.0.11",
           "System.Resources.ResourceManager": "4.0.1",
@@ -402,7 +405,11 @@
           }
         }
       },
-      "runtime.native.System/4.0.0": {},
+      "runtime.native.System/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        }
+      },
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -410,6 +417,7 @@
       },
       "System.Collections/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
@@ -501,11 +509,13 @@
       },
       "System.Diagnostics.Debug/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "System.Diagnostics.Process/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "Microsoft.Win32.Primitives": "4.0.1",
           "Microsoft.Win32.Registry": "4.0.0",
           "System.Collections": "4.0.11",
@@ -554,11 +564,13 @@
       },
       "System.Diagnostics.Tools/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "System.Diagnostics.TraceSource/4.0.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Globalization": "4.0.11",
@@ -581,6 +593,7 @@
       },
       "System.Diagnostics.Tracing/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
@@ -605,11 +618,13 @@
       },
       "System.Globalization/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "System.Globalization.Extensions/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Globalization": "4.0.11",
           "System.Resources.ResourceManager": "4.0.1",
           "System.Runtime": "4.1.0",
@@ -629,6 +644,7 @@
       },
       "System.IO/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0",
           "System.Text.Encoding": "4.0.11",
           "System.Threading.Tasks": "4.0.11"
@@ -636,6 +652,7 @@
       },
       "System.IO.FileSystem/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.IO": "4.1.0",
           "System.IO.FileSystem.Primitives": "4.0.1",
           "System.Runtime": "4.1.0",
@@ -718,6 +735,7 @@
       },
       "System.Reflection/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.IO": "4.1.0",
           "System.Reflection.Primitives": "4.0.1",
           "System.Runtime": "4.1.0"
@@ -749,6 +767,7 @@
       },
       "System.Reflection.Extensions/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Reflection": "4.1.0",
           "System.Runtime": "4.1.0"
         }
@@ -774,6 +793,7 @@
       },
       "System.Reflection.Primitives/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
@@ -785,24 +805,40 @@
       },
       "System.Resources.ResourceManager/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Globalization": "4.0.11",
           "System.Reflection": "4.1.0",
           "System.Runtime": "4.1.0"
         }
       },
-      "System.Runtime/4.1.0": {},
+      "System.Runtime/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
       "System.Runtime.Extensions/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "System.Runtime.Handles/4.0.1": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
       "System.Runtime.InteropServices/4.1.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Reflection": "4.1.0",
           "System.Reflection.Primitives": "4.0.1",
           "System.Runtime": "4.1.0",
@@ -811,6 +847,7 @@
       },
       "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Reflection": "4.1.0",
           "System.Resources.ResourceManager": "4.0.1",
           "System.Runtime": "4.1.0",
@@ -851,11 +888,33 @@
       },
       "System.Text.Encoding/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Text.Encoding.CodePages/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
         }
       },
       "System.Text.Encoding.Extensions/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0",
           "System.Text.Encoding": "4.0.11"
         }
@@ -878,6 +937,7 @@
       },
       "System.Threading.Tasks/4.0.11": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Runtime": "4.1.0"
         }
       },
@@ -1013,7 +1073,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1061,7 +1121,8 @@
       },
       "CurrencyConverter.Core/1.0.0": {
         "dependencies": {
-          "CurrencyConverter.Helper": "1.0.0"
+          "CurrencyConverter.Helper": "1.0.0",
+          "System.Text.Encoding.CodePages": "4.6.0"
         },
         "runtime": {
           "CurrencyConverter.Core.dll": {}
@@ -1114,6 +1175,13 @@
       "sha512": "sha512-ON7UIMIhAwrYb0ep+3ztoWVGvtfo88IhiHVnbyOiuVsi8bOMCdMPVcR+EX1WYGgKAd030pHRaxazMlkQ6uDyJQ==",
       "path": "microsoft.net.test.sdk/16.0.1",
       "hashPath": "microsoft.net.test.sdk.16.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/16.0.1": {
       "type": "package",
@@ -1409,6 +1477,13 @@
       "path": "system.runtime/4.1.0",
       "hashPath": "system.runtime.4.1.0.nupkg.sha512"
     },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    },
     "System.Runtime.Extensions/4.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1464,6 +1539,13 @@
       "sha512": "sha512-U3gGeMlDZXxCEiY4DwVLSacg+DFWCvoiX+JThA/rvw37Sqrku7sEFeVBBBMBnfB6FeZHsyDx85HlKL19x0HtZA==",
       "path": "system.text.encoding/4.0.11",
       "hashPath": "system.text.encoding.4.0.11.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OCUK9C/U97+UheVwo+JE+IUcKySUE3Oe+BcHhVtQrvmKSUFLrUDO8B5zEPRL6mBGbczxZp4w1boSck6/fw4dog==",
+      "path": "system.text.encoding.codepages/4.6.0",
+      "hashPath": "system.text.encoding.codepages.4.6.0.nupkg.sha512"
     },
     "System.Text.Encoding.Extensions/4.0.11": {
       "type": "package",
