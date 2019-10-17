@@ -12,7 +12,7 @@ namespace CurrencyConverter.Configurations
             {
                 options.AddPolicy("FrontView", builder =>
                 {
-                    builder.WithMethods(new[] {"GET"});
+                    builder.WithMethods(new[] {"POST"});
                     builder.AllowAnyHeader();
                     builder.AllowCredentials();
                     builder.WithOrigins(new[] {"http://localhost:4200"});

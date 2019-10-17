@@ -27,19 +27,12 @@ namespace CurrencyConverter.Controllers
         [NonAction]
         private ICurrencyParser SelectParser(string code)
         {
-            try
+            switch (code)
             {
-                switch (code)
-                {
-                    case "RCB":
-                        return this.HttpContext.RequestServices.GetRequiredService<RCBParser>();
-                    default:
-                        return this.HttpContext.RequestServices.GetRequiredService<ECBParser>();
-                }
-            }
-            catch(Exception exc)
-            {
-                return null;
+                case "RCB":
+                    return this.HttpContext.RequestServices.GetRequiredService<RCBParser>();
+                default:
+                    return this.HttpContext.RequestServices.GetRequiredService<ECBParser>();
             }
         }
 
